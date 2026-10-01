@@ -1,0 +1,20 @@
+# 저장소 쪽에 LF를 못 박습니다.
+#
+# `core.autocrlf`는 머신마다 다릅니다. 같은 저장소가 머신에 따라 CRLF로 저장될 수
+# 있고, 그 상태에서는 텍스트 검사·diff·리뷰가 어긋납니다. 편집기 설정이 아니라 저장소
+# 설정으로 고치는 것이 맞는 고침입니다.
+
+* text=auto eol=lf
+
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.yaml text eol=lf
+
+*.png binary
+*.jpg binary
+*.woff2 binary

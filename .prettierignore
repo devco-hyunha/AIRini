@@ -1,0 +1,6 @@
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# 생성기 산출물 — 손으로 고치면 다음 실행에 덮어써집니다.
+src/routeTree.gen.ts

@@ -1,0 +1,8 @@
+/* Tailwind 4 진입점.
+ *
+ * `@import 'tailwindcss'` 가 유틸리티 클래스·기본 리셋·theme를 한 번에 넣습니다.
+ * Tailwind 4는 `tailwind.config.js`를 쓰지 않고 CSS의 `@theme`로 확장합니다.
+ * 확장할 값이 아직 없으므로 이 한 줄만 둡니다.
+ */
+
+@import 'tailwindcss';

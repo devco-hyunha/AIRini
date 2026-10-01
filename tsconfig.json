@@ -1,0 +1,31 @@
+{
+  "include": ["src", "test", "vite.config.ts", "eslint.config.js", "prettier.config.mjs"],
+  "compilerOptions": {
+    "target": "ES2022",
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["vite/client"],
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+
+    /* verbatimModuleSyntax는 켜지 않습니다.
+       켜면 서버 번들이 클라이언트 번들에 새어 들어갑니다.
+       TanStack Start 공식 문서(build-from-scratch)의 명시적 권고입니다. */
+    "verbatimModuleSyntax": false,
+
+    /* Linting */
+    "skipLibCheck": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  }
+}
